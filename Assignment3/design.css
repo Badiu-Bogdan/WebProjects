@@ -1,0 +1,195 @@
+.body{
+    padding-left: 15px;
+}
+
+.topBar{
+    /*border:5px solid #ee3e64;
+    position: absolute;
+    display: flex;
+    flex-direction: row;*/
+    display: block;
+    position: fixed;
+}
+
+.topBarContainer{
+}
+
+.mainNews{
+    width: 1200px;
+    height:600px;
+}
+
+.mainNewsLeft
+{
+    width:640px;
+}
+
+.mainNewsRight
+{
+    width:560px;
+    float: left;
+}
+
+.mainNewsLeft
+{
+    float:left;
+}
+.mainNewsLeftTop
+{
+    display: inline-block;
+    padding-right: 630px;
+}
+
+.mainNewsLeftMiddle{
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.mainNewsLeftBottom{
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.mainNewsRightTop
+{
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.mainNewsRightMiddleFirst
+{
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.mainNewsRightMiddleSeccond
+{
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.mainNewsRightBottom
+{
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.topBarIcon{
+    display: inline;
+    padding: 30px;
+}
+
+.mediaBar{
+    /*border:5px solid YELLOW;
+    position: relative;
+    top:130px;*/
+    display: block;
+}
+
+.mediaBarIcon{
+    display: inline;
+    padding: 25px;
+}
+
+.hr{
+    display: block;
+}
+
+.menuBar1{
+    display: block;
+}
+
+.menuBar1Item{
+    display: inline;
+    padding-left: 15px;
+}
+
+.menu2Bar{
+    display: block;
+}
+
+.menuBar2Container{
+    display: inline;
+    padding-left: 15px;
+}
+
+.lifeNewsContainerDiv1 h3{
+    width: 275px;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.467;
+    color: #333;
+}
+
+.lifeNewsContainerDiv2 h3 {
+    width: 275px;
+    font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.467;
+    color: #333;
+}
+
+.lifeNewsContainerDiv3 h3 {
+    width: 275px;
+    font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.467;
+    color: #333;
+}
+
+.lifeNewsContainerDiv4 h3 {
+    width: 275px;
+    font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.467;
+    color: #333;
+}
+.lifeNewsContainerDiv1{
+    float:left;
+    padding-right: 12px;
+}
+.lifeNewsContainerDiv2{
+    float:left;
+    padding-right: 12px;
+}
+.lifeNewsContainerDiv3{
+    float:left;
+    padding-right: 12px;
+}
+.lifeNewsContainerDiv4{
+    float:left;
+    padding-right: 12px;
+}
+
+.subDiv2nr1 img{
+    float:left;
+}
+
+.subDiv2nr2 img{
+    float:left;
+}
+
+.subDiv2nr3 img{
+    float:left;
+}
+
+.subDiv3nr1 img{
+    float:left;
+}
+
+.subDiv3nr2 img{
+    float:left;
+}
+
+.subDiv3nr3 img{
+    float:left;
+}
+
+.lifeNewsContainerDiv1{
+    display: inline;
+    width: 308px;
+}

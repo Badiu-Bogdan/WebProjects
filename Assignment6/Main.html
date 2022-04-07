@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="jquery-3.6.0.js"></script>
+
+    <script>
+        function open(){
+            $('#dialog').show();
+        }
+
+        function close(){
+            $('#dialog').hide();
+        }
+
+        $(document).ready(function(){
+            $('#close_button').click(function(){
+                close();
+            });
+
+            $('#my_button').click(function(){
+                open();
+            });
+        });
+        
+    </script>
+</head>
+
+<body>
+<div id="main_div" style="text-align: center">
+    <button id="my_button">Button</button>
+    <div id="dialog">
+        <p>This is a dialog that should not be resizable!</p>
+        <button id="close_button">Close</button>
+    </div>
+</div>
+</body>
+</html>

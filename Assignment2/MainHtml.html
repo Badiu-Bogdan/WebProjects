@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment2_Pb8</title>
+</head>
+<style>
+    div.fig_3d
+    {
+        perspective: 1000px;
+        width: 26%;
+        margin: 3%;
+        display: inline-block;
+    }
+
+    div.fig_3d figure{
+        position: relative;
+        transform-style: preserve-3d;
+        transition: 1s transform;
+        font-size: 1.6rem;
+    }
+    div.fig_3d figure img{
+        width:100%;
+        height: auto;
+    }
+    div.fig_3d:hover figure{
+        transform: rotateY(180deg);
+    }
+</style>
+<body>
+    <div class="fig_3d">
+        <figure>
+            <img src="Background_Image.jpg" alt="Background_Image_Photo">
+        </figure>
+    </div>
+</body>
+</html>
